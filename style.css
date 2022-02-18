@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+*{
+    /*import font from google fonts*/
+    font-family: 'Manrope', sans-serif;
+
+}
+body {
+    background-color: #202632;
+}
+.card{
+    width: 90%;
+    max-width: 375px;
+    /*make card border radius 5px*/
+    border-radius: 5px;
+    /*make card box-shadow*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*make card background color white*/
+    background-color: white;
+    /*make card padding 20px*/
+    padding: 20px;
+    padding-bottom: 40px;
+    /*center vertixcally*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #313A49;
+
+}
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff;
+}
+h1, p{
+    text-align: center;
+}
+p{
+    font-size: 2em;
+    color: white
+}
+h1{
+    font-size: 1em;
+    letter-spacing: 5px;
+    color: #54FFAD;
+}
+.divider{
+    width: 100%;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #54FFAD;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("images/icon-dice.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #43CC8A;
+}
